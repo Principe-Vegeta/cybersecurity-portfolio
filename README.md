@@ -14,6 +14,26 @@ Hands-on cybersecurity learning portfolio focused on Linux, networking, Bash, Py
 | [04 - Python Port Scanner](./04-python-port-scanner/) | Socket-based scanning | Python, sockets, TCP, arguments |
 | [05 - Wireshark Port Knocking Lab](./05-wireshark-port-knocking/) | Traffic analysis | Wireshark, TCP SYN, packet analysis |
 
+## Security Labs
+
+Hands-on laboratory exercises developed during my cybersecurity training.
+
+| Lab | Focus | Skills |
+|---|---|---|
+| [01 - Web Recon: Sitemap & Source Inspection](./vlab/01-web-recon-sitemap/) | Web reconnaissance | cURL, HTTP, source inspection |
+| [02 - Web Recon: Directory & File Enumeration](./vlab/02-web-recon-directory-enumeration/) | Resource enumeration | Gobuster, cURL, HTTP |
+| [03 - Web Recon: User Directories & User-Agent Handling](./vlab/03-web-recon-userdir-user-agent/) | Web enumeration | Gobuster, cURL, HTTP headers |
+| [04 - Information Gathering: Web Information Leakage](./vlab/04-information-gathering-web/) | Information exposure | cURL, grep, regex |
+| [05 - Web Recon: Directory Listing & Application Exposure](./vlab/05-web-recon-directory-listing/) | Web reconnaissance | Gobuster, cURL, HTTP |
+
+### Web Recon Methodology
+
+The labs follow a practical workflow:
+
+**Reconnaissance → Enumeration → Validation → Analysis → Documentation → Defensive recommendations**
+
+See the [Web Recon Methodology](./vlab/docs/web-recon-methodology.md) for the approach I am practicing.
+
 ## Core Skills Demonstrated
 
 - Linux command line and system administration fundamentals
