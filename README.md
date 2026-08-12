@@ -1,6 +1,6 @@
 # Cybersecurity Portfolio
 
-Hands-on cybersecurity learning portfolio focused on Linux, networking, Bash, Python, reconnaissance, and network traffic analysis.
+Hands-on cybersecurity learning portfolio focused on Linux, networking, Bash, Python, web reconnaissance, security tooling, and network traffic analysis.
 
 > **Learning context:** The projects in this repository are based on hands-on study and lab exercises from my cybersecurity training. All security testing is intended for systems I own or environments where I have explicit authorization.
 
