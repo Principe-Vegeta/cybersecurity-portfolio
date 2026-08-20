@@ -13,6 +13,8 @@ All activities were performed in authorized training environments.
 - [03 - Web Recon: User Directories & User-Agent Handling](./03-web-recon-userdir-user-agent/)
 - [04 - Information Gathering: Web Information Leakage](./04-information-gathering-web/)
 - [05 - Web Recon: Directory Listing & Application Exposure](./05-web-recon-directory-listing/)
+- [06 - Information Gathering: Web Banner & Technology Fingerprinting](./06-web-recon-banner-fingerprinting/) 
+
 
 ## Learning Approach
 
