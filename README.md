@@ -44,8 +44,8 @@ See the [Web Recon Methodology](./vlab/docs/web-recon-methodology.md) for the ap
 - Python networking with sockets
 - Wireshark packet analysis
 - Technical documentation and reproducible lab notes
-- Web reconnaissance and resource enumeration
-- HTTP request and response analysis
+- Web reconnaissance and technology fingerprinting
+- HTTP response and header analysis
 - Directory and file enumeration
 = Source-code and web resource inspection
 - Information gathering and information exposure analysis
