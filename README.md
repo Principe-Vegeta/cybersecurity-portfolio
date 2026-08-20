@@ -13,6 +13,7 @@ Hands-on cybersecurity learning portfolio focused on Linux, networking, Bash, Py
 | [03 - HTML Subdomain Enumerator](./03-html-subdomain-enumerator/) | Web enumeration | Bash, wget, grep, regex, DNS |
 | [04 - Python Port Scanner](./04-python-port-scanner/) | Socket-based scanning | Python, sockets, TCP, arguments |
 | [05 - Wireshark Port Knocking Lab](./05-wireshark-port-knocking/) | Traffic analysis | Wireshark, TCP SYN, packet analysis |
+| [06 - Web Recon Banner Fingerprinting](./06-web-recon-banner-fingerprinting) | Web reconnaissance and technology fingerprinting | Nmap, cURL, HTTP, IIS, ASP.NET, banner grabbing |
 
 ## Security Labs
 
