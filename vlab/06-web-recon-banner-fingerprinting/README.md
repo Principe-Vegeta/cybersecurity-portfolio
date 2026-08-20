@@ -34,7 +34,7 @@ Identify the web server software and version running on the target.
 ### Nmap Enumeration
 Service and version detection was performed against the authorized laboratory target:
 
-```bash
+bash
 nmap -v -sSV -Pn -O 172.16.1.60
 Relevant result:PlaintextPORT     STATE SERVICE     VERSION
 80/tcp   open  http        Microsoft IIS httpd 7.x
