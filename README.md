@@ -25,6 +25,7 @@ Hands-on laboratory exercises developed during my cybersecurity training.
 | [03 - Web Recon: User Directories & User-Agent Handling](./vlab/03-web-recon-userdir-user-agent/) | Web enumeration | Gobuster, cURL, HTTP headers |
 | [04 - Information Gathering: Web Information Leakage](./vlab/04-information-gathering-web/) | Information exposure | cURL, grep, regex |
 | [05 - Web Recon: Directory Listing & Application Exposure](./vlab/05-web-recon-directory-listing/) | Web reconnaissance | Gobuster, cURL, HTTP |
+| [06 - Information Gathering: Web Banner & Technology Fingerprinting](./vlab/06-web-recon-banner-fingerprinting) | Web reconnaissance | Nmap, cURL, HTTP headers, IIS, ASP.NET |
 
 ### Web Recon Methodology
 
