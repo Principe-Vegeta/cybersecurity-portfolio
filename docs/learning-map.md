@@ -35,6 +35,10 @@ This portfolio is organized around practical skills represented in my current cy
 - TCP ports and SYN responses
 - DNS concepts
 - HTTP request/response basics
+- HTTP response header analysis
+- Web server banner identification
+- Technology fingerprinting
+- Behavioral fingerprinting  
 - Network traffic inspection
   
 - Web reconnaissance
@@ -58,6 +62,7 @@ This portfolio is organized around practical skills represented in my current cy
 
 - Wireshark
 - tcpdump
+- Nmap
 - Netcat/Ncat
 - hping3
 - curl
