@@ -29,7 +29,7 @@ The exercises progressed from basic banner identification to technology and vers
 
 Identify the web server software and version running on the target.
 
-**Lab ID:** `3ac410dc6d3272268e955e1a7c50c17ffc621951`
+**Lab ID:** `3ac410dc...[REDACTED]`
 
 ### Nmap Enumeration
 
@@ -43,8 +43,8 @@ Relevant result:
 
 ```text
 PORT     STATE SERVICE     VERSION
-80/tcp   open  http        Microsoft IIS httpd 7.5
-443/tcp  open  ssl/http    Microsoft IIS httpd 7.5
+80/tcp   open  http        Microsoft IIS httpd 7.x
+443/tcp  open  ssl/http    Microsoft IIS httpd 7.x
 ```
 
 ### HTTP Header Validation
@@ -59,13 +59,13 @@ Relevant response header:
 
 ```text
 HTTP/1.1 200 OK
-Server: Microsoft-IIS/7.5
+Server: Microsoft-IIS/7.x [REDACTED FOR ACADEMIC INTEGRITY]
 X-Powered-By: ASP.NET
 ```
 
 ### Result
 
-**Web Server:** `Microsoft-IIS/7.5`
+**Web Server:** `Microsoft-IIS/7.x` 
 
 The `Server` HTTP response header exposed the web server software and version.
 
@@ -77,7 +77,7 @@ The `Server` HTTP response header exposed the web server software and version.
 
 Identify the web technology/framework used by the application.
 
-**Lab ID:** `b163c928848658140595de425edd41c26ce436a6`
+**Lab ID:** `b163c928...[REDACTED]`
 
 ### HTTP Header Analysis
 
@@ -90,7 +90,7 @@ curl -v http://172.16.1.60
 Relevant header:
 
 ```text
-Server: Microsoft-IIS/7.5
+Server: Microsoft-IIS/7.x
 X-Powered-By: ASP.NET
 ```
 
@@ -108,7 +108,7 @@ The `X-Powered-By` response header exposed the technology used by the web applic
 
 Identify the version of the web application framework.
 
-**Lab ID:** `9b785135d804b3e8b068eacd3876b4d2884ec4a4`
+**Lab ID:** `9b785135...[REDACTED]`
 
 ### Behavioral Fingerprinting
 
@@ -123,7 +123,7 @@ The response included:
 ```text
 HTTP/1.1 404 Not Found
 Server: Microsoft-IIS/7.5
-X-AspNet-Version: 2.0.50727
+X-AspNet-Version: 2.x.xxxxx  <-- [REDACTED FOR ACADEMIC INTEGRITY]
 X-Powered-By: ASP.NET
 ```
 
@@ -134,7 +134,7 @@ The request to the `.aspx` extension caused the IIS server to process the reques
 Although the requested resource did not exist and returned `404 Not Found`, the response exposed the following header:
 
 ```text
-X-AspNet-Version: 2.0.50727
+X-AspNet-Version: 2.x.xxxxx
 ```
 
 This provided the framework version through behavioral fingerprinting.
@@ -149,9 +149,9 @@ This provided the framework version through behavioral fingerprinting.
 
 | VLAB | Technique                 | Finding             |
 | ---- | ------------------------- | ------------------- |
-| 01   | Banner Grabbing           | `Microsoft-IIS/7.5` |
+| 01   | Banner Grabbing           | `Microsoft-IIS/7.x` |
 | 02   | HTTP Header Analysis      | `ASP.NET`           |
-| 03   | Behavioral Fingerprinting | `ASP.NET 2.0.50727` |
+| 03   | Behavioral Fingerprinting | `ASP.NET 2.x.xxxxx` |
 
 ## Skills Demonstrated
 
